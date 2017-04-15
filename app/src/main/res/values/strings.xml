@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Autism Help</string>
+    <string name="title_activity_base">BaseActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="visual_contact">Visual Contact</string>
+    <string name="stay_in_place">Stay in Place</string>
+    <string name="imitation">Imitation</string>
+    <string name="follow_instruction">Follow Instruction</string>
+    <string name="express_intentions">Express Intention</string>
+    <string name="help">Help</string>
+    <string-array name="main_grid_items">
+        <item>visual_contact</item>
+        <item>stay_in_place</item>
+        <item>imitation</item>
+        <item>follow_instruction</item>
+        <item>express_intentions</item>
+        <item>help</item>
+    </string-array>
+</resources>

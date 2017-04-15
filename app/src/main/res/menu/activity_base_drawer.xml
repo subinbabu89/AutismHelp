@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_visual_contact"
+            android:title="Visual Contact" />
+        <item
+            android:id="@+id/nav_stay_in_place"
+            android:title="Stay in Place" />
+        <item
+            android:id="@+id/nav_imitation"
+            android:title="Imitation" />
+        <item
+            android:id="@+id/nav_follow_instructions"
+            android:title="Follow Instructions" />
+        <item
+            android:id="@+id/nav_express_intentions"
+            android:title="Express Intentions" />
+        <item
+            android:id="@+id/nav_help"
+            android:title="Help" />
+    </group>
+
+</menu>
