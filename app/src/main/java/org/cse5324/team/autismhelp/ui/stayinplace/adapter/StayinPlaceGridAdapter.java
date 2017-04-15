@@ -47,11 +47,22 @@ public class StayinPlaceGridAdapter extends BaseAdapter {
         if(view == null){
             view = new StayinPlaceGridAdapter.ViewHolder();
             TextView label = (TextView) inflate.findViewById(R.id.txtv_grid_item_label);
+            ImageView icon = (ImageView) inflate.findViewById(R.id.imgv_grid_item_icon);
             view.label = label;
+            view.icon = icon;
             inflate.setTag(view);
         }
 
         view.label.setText(gridItems[position]);
+        if(position==0){
+            view.icon.setImageResource(R.drawable.puzzle_icon);
+        }else if(position==1){
+            view.icon.setImageResource(R.drawable.trace_icon);
+        }else if(position==2){
+            view.icon.setImageResource(R.drawable.match_icon);
+        }else if(position==3){
+            view.icon.setImageResource(R.drawable.buildtower_icon);
+        }
 
         return inflate;
     }
