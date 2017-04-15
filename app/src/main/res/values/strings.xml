@@ -17,11 +17,18 @@
     <string name="express_intentions">Express Intention</string>
     <string name="help">Help</string>
     <string-array name="main_grid_items">
-        <item>visual_contact</item>
-        <item>stay_in_place</item>
-        <item>imitation</item>
-        <item>follow_instruction</item>
-        <item>express_intentions</item>
-        <item>help</item>
+        <item>Visual Contact</item>
+        <item>Stay in Place</item>
+        <item>Imitation</item>
+        <item>Follow instruction</item>
+        <item>Express intentions</item>
+        <item>Help</item>
+    </string-array>
+
+    <string-array name="stay_in_place_grid">
+        <item>Puzzle</item>
+        <item>Trace</item>
+        <item>Match</item>
+        <item>Build Tower</item>
     </string-array>
 </resources>
