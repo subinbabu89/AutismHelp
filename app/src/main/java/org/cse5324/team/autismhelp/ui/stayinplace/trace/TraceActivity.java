@@ -1,4 +1,4 @@
-package org.cse5324.team.autismhelp.ui.stayinplace;
+package org.cse5324.team.autismhelp.ui.stayinplace.trace;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

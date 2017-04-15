@@ -1,9 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="org.cse5324.team.autismhelp.ui.stayinplace.TraceActivity">
+    tools:context=".ui.stayinplace.trace.TraceActivity" >
 
-</android.support.constraint.ConstraintLayout>
+    <ImageView
+        android:id="@+id/imgv_trace_actual"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/trace_actual"/>
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:src="@drawable/trace_dotted"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imgv_trace_actual"/>
+
+    <org.cse5324.team.autismhelp.ui.stayinplace.trace.SimpleDrawingView
+        android:id="@+id/simpleDrawingView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imgv_trace_actual" />
+
+</RelativeLayout>

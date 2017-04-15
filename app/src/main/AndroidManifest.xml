@@ -22,8 +22,8 @@
         <activity android:name=".ui.followinstructions.FollowInstructionsActivity" />
         <activity android:name=".ui.expressintentions.ExpressIntentionsActivity" />
         <activity android:name=".ui.help.HelpActivity" />
-        <activity android:name=".ui.stayinplace.PuzzleActivity" />
-        <activity android:name=".ui.stayinplace.TraceActivity" />
+        <activity android:name=".ui.stayinplace.puzzle.PuzzleActivity" />
+        <activity android:name=".ui.stayinplace.trace.TraceActivity" />
         <activity android:name=".ui.stayinplace.MatchActivity" />
         <activity android:name=".ui.stayinplace.BuildTowerActivity"></activity>
     </application>

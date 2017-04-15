@@ -8,14 +8,9 @@ import android.widget.GridView;
 
 import org.cse5324.team.autismhelp.R;
 import org.cse5324.team.autismhelp.ui.BaseActivity;
-import org.cse5324.team.autismhelp.ui.expressintentions.ExpressIntentionsActivity;
-import org.cse5324.team.autismhelp.ui.followinstructions.FollowInstructionsActivity;
-import org.cse5324.team.autismhelp.ui.help.HelpActivity;
-import org.cse5324.team.autismhelp.ui.imitation.ImitationActivity;
-import org.cse5324.team.autismhelp.ui.main.MainActivity;
-import org.cse5324.team.autismhelp.ui.main.adapter.MainGridAdapter;
 import org.cse5324.team.autismhelp.ui.stayinplace.adapter.StayinPlaceGridAdapter;
-import org.cse5324.team.autismhelp.ui.visualcontact.VisualContactActivity;
+import org.cse5324.team.autismhelp.ui.stayinplace.puzzle.PuzzleActivity;
+import org.cse5324.team.autismhelp.ui.stayinplace.trace.TraceActivity;
 
 public class StayinPlaceActivty extends BaseActivity {
 
