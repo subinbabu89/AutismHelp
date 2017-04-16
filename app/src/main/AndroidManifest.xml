@@ -25,7 +25,7 @@
         <activity android:name=".ui.stayinplace.puzzle.PuzzleActivity" />
         <activity android:name=".ui.stayinplace.trace.TraceActivity" />
         <activity android:name=".ui.stayinplace.MatchActivity" />
-        <activity android:name=".ui.stayinplace.BuildTowerActivity"></activity>
+        <activity android:name=".ui.stayinplace.buildtower.BuildTowerActivity"></activity>
     </application>
 
 </manifest>

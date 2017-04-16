@@ -9,6 +9,7 @@ import android.widget.GridView;
 import org.cse5324.team.autismhelp.R;
 import org.cse5324.team.autismhelp.ui.BaseActivity;
 import org.cse5324.team.autismhelp.ui.stayinplace.adapter.StayinPlaceGridAdapter;
+import org.cse5324.team.autismhelp.ui.stayinplace.buildtower.BuildTowerActivity;
 import org.cse5324.team.autismhelp.ui.stayinplace.puzzle.PuzzleActivity;
 import org.cse5324.team.autismhelp.ui.stayinplace.trace.TraceActivity;
 
