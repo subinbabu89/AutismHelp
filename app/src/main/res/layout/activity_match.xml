@@ -1,9 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="org.cse5324.team.autismhelp.ui.stayinplace.MatchActivity">
+    android:orientation="vertical"
+    tools:context="org.cse5324.team.autismhelp.ui.stayinplace.match.MatchActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/match_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="4"
+        android:columnCount="2">
+
+        <ImageView
+            android:id="@+id/imgv_wooden_horse"
+            android:layout_width="180dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/wooden_horse" />
+
+        <ImageView
+            android:id="@+id/imgv_bicycle"
+            android:layout_width="180dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/bicycle" />
+
+        <ImageView
+            android:id="@+id/imgv_tower"
+            android:layout_width="180dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/tower" />
+
+        <ImageView
+            android:id="@+id/imgv_xylophone"
+            android:layout_width="180dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/xylophone" />
+    </GridLayout>
+</LinearLayout>

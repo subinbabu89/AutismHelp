@@ -47,11 +47,14 @@ public class MainGridAdapter extends BaseAdapter {
         if(view == null){
             view = new ViewHolder();
             TextView label = (TextView) inflate.findViewById(R.id.txtv_grid_item_label);
+            ImageView icon = (ImageView) inflate.findViewById(R.id.imgv_grid_item_icon);
             view.label = label;
+            view.icon = icon;
             inflate.setTag(view);
         }
 
         view.label.setText(gridItems[position]);
+        view.icon.setImageResource(R.mipmap.ic_launcher);
 
         return inflate;
     }
