@@ -5,5 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="org.cse5324.team.autismhelp.ui.imitation.ImitationActivity">
+    <GridView
+        android:id="@+id/gridview_imitation"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:columnWidth="90dp"
+        android:numColumns="2"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:stretchMode="columnWidth"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:gravity="center"></GridView>
 
 </android.support.constraint.ConstraintLayout>

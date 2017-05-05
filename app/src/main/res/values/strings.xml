@@ -16,6 +16,7 @@
     <string name="follow_instruction">Follow Instruction</string>
     <string name="express_intentions">Express Intention</string>
     <string name="help">Help</string>
+    <string name="play_audio">Play</string>
     <string-array name="main_grid_items">
         <item>Visual Contact</item>
         <item>Stay in Place</item>
@@ -31,6 +32,24 @@
         <item>Match</item>
         <item>Build Tower</item>
     </string-array>
+
+    <string-array name="follow_instructions_grid">
+        <item>Brush</item>
+        <item>Shower</item>
+        <item>Eat</item>
+        <item>Add</item>
+    </string-array>
+
+    <string-array name="imitation_grid">
+        <item>Hands Up</item>
+        <item>Clap </item>
+        <item>Touch your Foot</item>
+        <item>Dance </item>
+        <item>Hands to Head </item>
+        <item>Add</item>
+
+    </string-array>
+
 
     <string name="hurrah">Hurrah!!!</string>
     <string name="completed_puzzle">You have completed the puzzle!</string>

@@ -4,9 +4,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/autism_help_logo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/autism_help_logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".ui.main.MainActivity">
@@ -25,7 +25,17 @@
         <activity android:name=".ui.stayinplace.puzzle.PuzzleActivity" />
         <activity android:name=".ui.stayinplace.trace.TraceActivity" />
         <activity android:name=".ui.stayinplace.match.MatchActivity" />
-        <activity android:name=".ui.stayinplace.buildtower.BuildTowerActivity"></activity>
+        <activity android:name=".ui.stayinplace.buildtower.BuildTowerActivity" />
+        <activity android:name=".ui.followinstructions.FollowInstructionsGridAdapter" />
+        <activity android:name=".ui.followinstructions.Brush" />
+        <activity android:name=".ui.followinstructions.Shower" />
+        <activity android:name=".ui.followinstructions.Eat" />
+        <activity android:name=".ui.imitation.HandsUp" />
+        <activity android:name=".ui.imitation.Clap" />
+        <activity android:name=".ui.imitation.TouchYourFoot" />
+        <activity android:name=".ui.imitation.Dance" />
+        <activity android:name=".ui.imitation.HandsToHead" />
+        <activity android:name=".ui.followinstructions.AddInstruction"></activity>
     </application>
 
 </manifest>
