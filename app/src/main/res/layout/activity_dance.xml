@@ -6,10 +6,11 @@
     android:layout_height="match_parent"
     tools:context="org.cse5324.team.autismhelp.ui.imitation.Dance">
     <pl.droidsonroids.gif.GifTextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="143dp"
+        android:layout_height="551dp"
         android:background="@drawable/dance_in"
-        />
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp" />
 
     <Button
         android:id="@+id/button1"
