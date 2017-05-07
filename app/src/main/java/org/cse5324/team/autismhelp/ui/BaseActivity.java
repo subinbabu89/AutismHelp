@@ -48,7 +48,7 @@ public class BaseActivity extends AppCompatActivity implements
          */
         super.setContentView(fullLayout);
 
-        toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar = (Toolbar) findViewById(R.id.speech_toolbar);
         navigationView = (NavigationView) findViewById(R.id.navigationView);
 
         if (useToolbar())
