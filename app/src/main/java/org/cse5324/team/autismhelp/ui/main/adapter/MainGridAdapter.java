@@ -55,20 +55,18 @@ public class MainGridAdapter extends BaseAdapter {
 
         view.label.setText(gridItems[position]);
         if(position==0){
-            view.icon.setImageResource(R.drawable.visual_icon);
+            view.icon.setImageResource(R.drawable.ic_visual_contact);
         }else if(position==1){
-            view.icon.setImageResource(R.drawable.stayinplace_icon);
+            view.icon.setImageResource(R.drawable.ic_stay_in_place);
         }else if(position==2){
-            view.icon.setImageResource(R.drawable.imitate_icon);
+            view.icon.setImageResource(R.drawable.ic_imitation);
         }else if(position==3){
-            view.icon.setImageResource(R.drawable.follow_icon);
+            view.icon.setImageResource(R.drawable.ic_follow_instructions);
         }else if(position==4){
-            view.icon.setImageResource(R.drawable.express_icon);
+            view.icon.setImageResource(R.drawable.ic_express_intentions);
         }else if(position==5){
-            view.icon.setImageResource(R.drawable.help_icon);
+            view.icon.setImageResource(R.drawable.ic_help);
         }
-        //view.icon.setImageResource(R.mipmap.ic_launcher);
-
         return inflate;
     }
 

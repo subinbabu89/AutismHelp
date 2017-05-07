@@ -26,7 +26,7 @@ public class MatchPagerAdapter extends PagerAdapter{
         ImageView imageView = new ImageView(mContext);
 
         if(position==0) {
-            imageView.setImageResource(R.drawable.bicycle);
+            imageView.setImageResource(R.drawable.img_bicycle);
         }else if(position==1) {
             imageView.setImageResource(R.drawable.xylophone);
         }else if(position==2) {
