@@ -38,10 +38,7 @@ public class FollowInstructionsActivity extends BaseActivity {
                 intent = new Intent(FollowInstructionsActivity.this, Eat.class);
                 startActivity(intent);
                 break;
-            case 3:
-                intent = new Intent(FollowInstructionsActivity.this, AddInstruction.class);
-                startActivity(intent);
-                break;
+
             }
         }
         });

@@ -59,8 +59,6 @@ public class FollowInstructionsGridAdapter extends BaseAdapter {
             view.icon.setImageResource(R.drawable.shower);
         }else if(position==2){
             view.icon.setImageResource(R.drawable.eating);
-        }else if(position==3){
-            view.icon.setImageResource(R.drawable.add);
         }
 
         return inflate;

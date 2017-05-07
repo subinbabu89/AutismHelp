@@ -61,10 +61,7 @@ public class ImitationGridAdapter extends BaseAdapter {
             view.icon.setImageResource(R.drawable.dance);
         }else if(position==4){
             view.icon.setImageResource(R.drawable.handtohead);
-        }else if(position==5){
-            view.icon.setImageResource(R.drawable.add);
         }
-
         return inflate;
     }
 

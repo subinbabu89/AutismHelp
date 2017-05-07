@@ -6,8 +6,51 @@
     android:layout_height="match_parent"
     tools:context="org.cse5324.team.autismhelp.ui.followinstructions.AddInstruction">
     <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:id="@+id/Heading"
+        android:text="Touch the icon below to upload"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteY="35dp"
+        tools:layout_editor_absoluteX="66dp" />
+
+    <TextView
+        android:id="@+id/file_name_Tag"
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:text="in add"/>
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:text="Enter File Name"
+        android:layout_below="@+id/Heading"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteY="87dp"
+        tools:layout_editor_absoluteX="37dp" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/file_name_Tag"
+        android:id="@+id/file_name"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteY="66dp"
+        tools:layout_editor_absoluteX="205dp" />
+
+    <Button
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/file_name"
+        android:id="@+id/b_upload"
+        android:text="Upload"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:background="#039be5"
+        tools:layout_editor_absoluteY="174dp"
+        tools:layout_editor_absoluteX="261dp" />
 
 </android.support.constraint.ConstraintLayout>

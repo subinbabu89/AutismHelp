@@ -35,7 +35,6 @@
         <activity android:name=".ui.imitation.TouchYourFoot" />
         <activity android:name=".ui.imitation.Dance" />
         <activity android:name=".ui.imitation.HandsToHead" />
-        <activity android:name=".ui.followinstructions.AddInstruction"></activity>
     </application>
 
 </manifest>
