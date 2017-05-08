@@ -22,26 +22,24 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="8"
-            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
-            android:scrollHorizontally="true"
             android:ellipsize="end"
-            android:textSize="7dp"/>
+            android:scrollHorizontally="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textSize="25dp" />
 
         <ImageButton
             android:id="@+id/aac_clear"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@mipmap/aac_back"
-            android:src="@mipmap/aac_back" />
+            android:background="@mipmap/aac_back" />
 
         <ImageButton
             android:id="@+id/aac_speak"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@mipmap/aac_speak"
-            android:src="@mipmap/aac_speak" />
+            android:background="@mipmap/aac_speak" />
     </LinearLayout>
 
     <GridView

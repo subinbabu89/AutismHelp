@@ -48,6 +48,49 @@
 
     </string-array>
 
+    <string-array name="expression_grid">
+        <item>I</item>
+        <item>Is </item>
+        <item>What</item>
+        <item>Where </item>
+        <item>You </item>
+        <item>Want </item>
+        <item>Like </item>
+        <item>This </item>
+        <item>Good </item>
+        <item>Bad </item>
+        <item>Up </item>
+        <item>Down </item>
+        <item>Not </item>
+        <item>Stop </item>
+        <item>Help </item>
+        <item>Red </item>
+        <item>Green </item>
+        <item>Yellow </item>
+        <item>Blue </item>
+        <item>Purple </item>
+        <item>Pink </item>
+        <item>Red </item>
+        <item>Navy Blue </item>
+        <item>Apple </item>
+        <item>Banana </item>
+        <item>Water </item>
+        <item>Ice-Cream </item>
+        <item>Beef </item>
+        <item>Chicken </item>
+        <item>Lobster </item>
+        <item>Pie </item>
+        <item>Happy </item>
+        <item>Sad </item>
+        <item>Angry </item>
+        <item>Nervous </item>
+        <item>Hungry </item>
+        <item>Surprised </item>
+        <item>Sick </item>
+        <item>Sleepy </item>
+
+    </string-array>
+
 
     <string name="hurrah">Hurrah!!!</string>
     <string name="completed_puzzle">You have completed the puzzle!</string>
