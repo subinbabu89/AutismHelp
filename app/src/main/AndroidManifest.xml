@@ -26,7 +26,6 @@
         <activity android:name=".ui.stayinplace.trace.TraceActivity" />
         <activity android:name=".ui.stayinplace.match.MatchActivity" />
         <activity android:name=".ui.stayinplace.buildtower.BuildTowerActivity" />
-        <activity android:name=".ui.followinstructions.FollowInstructionsGridAdapter" />
         <activity android:name=".ui.followinstructions.Brush" />
         <activity android:name=".ui.followinstructions.Shower" />
         <activity android:name=".ui.followinstructions.Eat" />
@@ -35,6 +34,7 @@
         <activity android:name=".ui.imitation.TouchYourFoot" />
         <activity android:name=".ui.imitation.Dance" />
         <activity android:name=".ui.imitation.HandsToHead" />
+        <activity android:name=".ui.visualcontact.Toy"/>
         <activity android:name=".ui.visualcontact.Ball" />
         <activity android:name=".ui.visualcontact.Juice" />
         <activity android:name=".ui.visualcontact.Cookie"></activity>

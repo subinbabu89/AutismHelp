@@ -35,11 +35,11 @@ public class VisualContactActivity extends BaseActivity {
                         startActivity(intent);
                         break;
                     case 2:
-                        intent = new Intent(VisualContactActivity.this, Ball.class);
+                        intent = new Intent(VisualContactActivity.this, Juice.class);
                         startActivity(intent);
                         break;
                     case 3:
-                        intent = new Intent(VisualContactActivity.this, Juice.class);
+                        intent = new Intent(VisualContactActivity.this, Ball.class);
                         startActivity(intent);
                         break;
                 }
