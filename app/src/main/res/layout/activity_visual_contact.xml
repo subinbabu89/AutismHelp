@@ -12,9 +12,16 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".ui.visualcontact.VisualContactActivity"
     tools:showIn="@layout/activity_main">
+    <GridView
+        android:id="@+id/gridview_visualActivity"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:columnWidth="90dp"
+        android:numColumns="2"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:stretchMode="columnWidth"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:gravity="center"></GridView>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Settings Activity!"/>
 </RelativeLayout>

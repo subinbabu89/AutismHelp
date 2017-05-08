@@ -25,7 +25,12 @@
         <item>Express intentions</item>
         <item>Help</item>
     </string-array>
-
+<string-array name="visual_contact_grid">
+    <item>Toy</item>
+    <item>Cookie</item>
+    <item>Ball</item>
+    <item>Juice</item>
+</string-array>
     <string-array name="stay_in_place_grid">
         <item>Puzzle</item>
         <item>Trace</item>

@@ -17,7 +17,7 @@ public class VisualContactGridAdapter extends BaseAdapter {
 
     public VisualContactGridAdapter(Context context){
         this.context =context;
-        gridItems = context.getResources().getStringArray(R.array.imitation_grid);
+        gridItems = context.getResources().getStringArray(R.array.visual_contact_grid);
     }
 
     @Override
