@@ -1,4 +1,4 @@
-package org.cse5324.team.autismhelp.ui.imitation;
+package org.cse5324.team.autismhelp.ui.visualcontact;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -11,12 +11,11 @@ import android.widget.TextView;
 import org.cse5324.team.autismhelp.R;
 
 
-
-public class ImitationGridAdapter extends BaseAdapter {
+public class VisualContactGridAdapter extends BaseAdapter {
     String[] gridItems;
     Context context;
 
-    public ImitationGridAdapter(Context context){
+    public VisualContactGridAdapter(Context context){
         this.context =context;
         gridItems = context.getResources().getStringArray(R.array.imitation_grid);
     }
@@ -40,9 +39,9 @@ public class ImitationGridAdapter extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
         View inflate = LayoutInflater.from(context).inflate(R.layout.grid_label_layout, parent,false);
 
-        ImitationGridAdapter.ViewHolder view =  (ImitationGridAdapter.ViewHolder)inflate.getTag();
+        VisualContactGridAdapter.ViewHolder view =  (VisualContactGridAdapter.ViewHolder)inflate.getTag();
         if(view == null){
-            view = new ImitationGridAdapter.ViewHolder();
+            view = new VisualContactGridAdapter.ViewHolder();
             TextView label = (TextView) inflate.findViewById(R.id.txtv_grid_item_label);
             ImageView icon = (ImageView) inflate.findViewById(R.id.imgv_grid_item_icon);
             view.label = label;
@@ -52,15 +51,13 @@ public class ImitationGridAdapter extends BaseAdapter {
 
         view.label.setText(gridItems[position]);
         if(position==0){
-            view.icon.setImageResource(R.drawable.hands_up);
+            view.icon.setImageResource(R.drawable.ic_toy);
         }else if(position==1){
-            view.icon.setImageResource(R.drawable.clap);
+            view.icon.setImageResource(R.drawable.ic_cookie);
         }else if(position==2){
-            view.icon.setImageResource(R.drawable.touchyourfoot);
+            view.icon.setImageResource(R.drawable.ic_juice);
         }else if(position==3){
-            view.icon.setImageResource(R.drawable.dance);
-        }else if(position==4){
-            view.icon.setImageResource(R.drawable.handtohead);
+            view.icon.setImageResource(R.drawable.ic_ball);
         }
         return inflate;
     }

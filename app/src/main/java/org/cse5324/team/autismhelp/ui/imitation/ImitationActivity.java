@@ -8,7 +8,6 @@ import android.widget.GridView;
 
 import org.cse5324.team.autismhelp.R;
 import org.cse5324.team.autismhelp.ui.BaseActivity;
-import org.cse5324.team.autismhelp.ui.followinstructions.AddInstruction;
 
 public class ImitationActivity extends BaseActivity {
 
@@ -45,10 +44,6 @@ public class ImitationActivity extends BaseActivity {
                 break;
             case 4:
                 intent = new Intent(ImitationActivity.this, HandsToHead.class);
-                startActivity(intent);
-                break;
-            case 5:
-                intent = new Intent(ImitationActivity.this, AddInstruction.class);
                 startActivity(intent);
                 break;
             }

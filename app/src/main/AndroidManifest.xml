@@ -35,7 +35,9 @@
         <activity android:name=".ui.imitation.TouchYourFoot" />
         <activity android:name=".ui.imitation.Dance" />
         <activity android:name=".ui.imitation.HandsToHead" />
-        <activity android:name=".ui.followinstructions.AddInstruction"></activity>
+        <activity android:name=".ui.visualcontact.Ball" />
+        <activity android:name=".ui.visualcontact.Juice" />
+        <activity android:name=".ui.visualcontact.Cookie"></activity>
     </application>
 
 </manifest>

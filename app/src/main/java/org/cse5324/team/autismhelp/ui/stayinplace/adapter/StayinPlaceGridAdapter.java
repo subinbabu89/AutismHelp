@@ -55,13 +55,13 @@ public class StayinPlaceGridAdapter extends BaseAdapter {
 
         view.label.setText(gridItems[position]);
         if(position==0){
-            view.icon.setImageResource(R.drawable.puzzle_icon);
+            view.icon.setImageResource(R.drawable.ic_puzzle);
         }else if(position==1){
-            view.icon.setImageResource(R.drawable.trace_icon);
+            view.icon.setImageResource(R.drawable.ic_trace);
         }else if(position==2){
-            view.icon.setImageResource(R.drawable.match_icon);
+            view.icon.setImageResource(R.drawable.ic_match);
         }else if(position==3){
-            view.icon.setImageResource(R.drawable.buildtower_icon);
+            view.icon.setImageResource(R.drawable.ic_build_tower);
         }
 
         return inflate;

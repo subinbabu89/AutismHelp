@@ -37,7 +37,6 @@
         <item>Brush</item>
         <item>Shower</item>
         <item>Eat</item>
-        <item>Add</item>
     </string-array>
 
     <string-array name="imitation_grid">
@@ -46,7 +45,6 @@
         <item>Touch your Foot</item>
         <item>Dance </item>
         <item>Hands to Head </item>
-        <item>Add</item>
 
     </string-array>
 
