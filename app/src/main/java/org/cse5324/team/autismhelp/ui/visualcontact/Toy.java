@@ -15,7 +15,7 @@ public class Toy extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_toy);
         Button one = (Button)this.findViewById(R.id.button1);
-        final MediaPlayer mp = MediaPlayer.create(this, R.raw.clap);
+        final MediaPlayer mp = MediaPlayer.create(this, R.raw.toy);
         one.setOnClickListener(new View.OnClickListener(){
 
             public void onClick(View v) {

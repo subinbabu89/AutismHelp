@@ -15,7 +15,7 @@ public class Ball extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ball);
         Button one = (Button)this.findViewById(R.id.button1);
-        final MediaPlayer mp = MediaPlayer.create(this, R.raw.clap);
+        final MediaPlayer mp = MediaPlayer.create(this, R.raw.ball);
         one.setOnClickListener(new View.OnClickListener(){
 
             public void onClick(View v) {

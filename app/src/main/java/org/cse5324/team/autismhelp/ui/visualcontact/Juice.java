@@ -15,7 +15,7 @@ public class Juice extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_juice);
         Button one = (Button)this.findViewById(R.id.button1);
-        final MediaPlayer mp = MediaPlayer.create(this, R.raw.clap);
+        final MediaPlayer mp = MediaPlayer.create(this, R.raw.juice);
         one.setOnClickListener(new View.OnClickListener(){
 
             public void onClick(View v) {
