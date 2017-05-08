@@ -18,7 +18,7 @@ public class FollowInstructionsActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_follow_instructions);
 
-        gridview = (GridView) findViewById(R.id.follow_grid);
+        gridview = (GridView) findViewById(R.id.gridview_followInstructions);
         FollowInstructionsGridAdapter followInstructionsGridAdapter = new FollowInstructionsGridAdapter(this);
         gridview.setAdapter(followInstructionsGridAdapter);
         gridview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
