@@ -244,7 +244,7 @@ public class ExpressIntentionsActivity extends BaseActivity {
         sentence.add(wrd2);
 
         for (String words:sentence){
-            b1.append(words+'\n');
+            b1.append(words);
 
         }
         disp.setText(b1);
