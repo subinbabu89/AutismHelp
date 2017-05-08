@@ -1,21 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="org.cse5324.team.autismhelp.ui.followinstructions.FollowInstructionsActivity">
 
-    <GridView
-        android:id="@+id/gridview_followInstructions"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:columnWidth="90dp"
-        android:numColumns="2"
-        android:verticalSpacing="10dp"
-        android:horizontalSpacing="10dp"
-        android:stretchMode="columnWidth"
-        android:padding="@dimen/activity_horizontal_margin"
-        android:gravity="center"></GridView>
+    <LinearLayout
+        android:id="@+id/ll_header_layout"
+        android:layout_alignParentTop="true"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+        <TextView
+            android:layout_width="0dp"
+            android:text="askdjfbhdj"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:id="@+id/disp"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+    </LinearLayout>
 
-</android.support.constraint.ConstraintLayout>
+    <GridView
+        android:layout_below="@+id/ll_header_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        android:columnWidth="90dp"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="10dp"
+        android:gravity="center"
+        android:id="@+id/follow_grid">
+
+    </GridView>
+
+</RelativeLayout>

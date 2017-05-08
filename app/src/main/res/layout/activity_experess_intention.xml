@@ -10,7 +10,42 @@
     tools:layout_editor_absoluteY="25dp"
     tools:layout_editor_absoluteX="0dp">
 
+    <LinearLayout
+        android:id="@+id/ll_header_layout"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/disp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:scrollHorizontally="true"
+            android:ellipsize="end"
+            android:textSize="7dp"/>
+
+        <ImageButton
+            android:id="@+id/aac_clear"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@mipmap/aac_back"
+            android:src="@mipmap/aac_back" />
+
+        <ImageButton
+            android:id="@+id/aac_speak"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@mipmap/aac_speak"
+            android:src="@mipmap/aac_speak" />
+    </LinearLayout>
+
     <GridView
+        android:layout_below="@+id/ll_header_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:layout_editor_absoluteX="8dp"
