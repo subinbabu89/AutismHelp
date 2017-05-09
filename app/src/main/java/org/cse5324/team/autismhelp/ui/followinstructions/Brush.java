@@ -4,12 +4,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import org.cse5324.team.autismhelp.R;
+import org.cse5324.team.autismhelp.ui.BaseActivity;
 
-public class Brush extends AppCompatActivity {
+public class Brush extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_brush);
+        setTitle("Brushing instructions");
     }
 }

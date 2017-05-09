@@ -32,6 +32,7 @@ public class ExpressIntentionsActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_experess_intention);
+        setTitle("Express Intentions");
         disp=(TextView)findViewById(R.id.disp);
         say=(ImageButton)findViewById(R.id.aac_speak);
         clr=(ImageButton)findViewById(R.id.aac_clear);

@@ -18,7 +18,7 @@ public class PuzzleActivity extends BaseActivity {
     protected void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         setContentView(R.layout.activity_puzzle);
-
+        setTitle("Puzzle");
         puzzleView = (PuzzleView)this.findViewById(R.id.puzzleView);
 
         if(bundle != null) {

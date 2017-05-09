@@ -18,6 +18,7 @@ public class VisualContactActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_visual_contact);
+        setTitle("Visual Contact");
         gridview = (GridView) findViewById(R.id.gridview_visualActivity);
         VisualContactGridAdapter visualGridAdapter = new VisualContactGridAdapter(this);
         gridview.setAdapter(visualGridAdapter);

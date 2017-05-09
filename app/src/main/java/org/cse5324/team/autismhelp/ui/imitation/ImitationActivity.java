@@ -17,7 +17,7 @@ public class ImitationActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_imitation);
-
+        setTitle("Imitation");
         gridview = (GridView) findViewById(R.id.gridview_imitation);
         ImitationGridAdapter imitationGridAdapter = new ImitationGridAdapter(this);
         gridview.setAdapter(imitationGridAdapter);

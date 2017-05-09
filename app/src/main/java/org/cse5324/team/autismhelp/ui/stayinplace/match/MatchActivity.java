@@ -23,7 +23,7 @@ public class MatchActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_match);
-
+        setTitle("Match");
         final ViewPager viewPager = (ViewPager) findViewById(R.id.match_pager);
         viewPager.setAdapter(new MatchPagerAdapter(this));
 

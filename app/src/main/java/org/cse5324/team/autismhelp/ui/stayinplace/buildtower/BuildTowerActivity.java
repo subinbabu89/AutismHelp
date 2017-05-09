@@ -18,7 +18,7 @@ public class BuildTowerActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_build_tower);
-
+        setTitle("Build Tower");
         final ViewPager viewPager = (ViewPager) findViewById(R.id.pager);
         viewPager.setAdapter(new TowerPagerAdapter(this));
 

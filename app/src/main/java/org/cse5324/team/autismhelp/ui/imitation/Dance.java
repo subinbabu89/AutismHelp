@@ -7,13 +7,15 @@ import android.view.View;
 import android.widget.Button;
 
 import org.cse5324.team.autismhelp.R;
+import org.cse5324.team.autismhelp.ui.BaseActivity;
 
-public class Dance extends AppCompatActivity {
+public class Dance extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dance);
+        setTitle("Dance");
         Button one = (Button)this.findViewById(R.id.button1);
         final MediaPlayer mp = MediaPlayer.create(this, R.raw.dance);
         one.setOnClickListener(new View.OnClickListener(){

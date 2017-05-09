@@ -17,7 +17,7 @@ public class FollowInstructionsActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_follow_instructions);
-
+        setTitle("Follow Instructions");
         gridview = (GridView) findViewById(R.id.gridview_followInstructions);
         FollowInstructionsGridAdapter followInstructionsGridAdapter = new FollowInstructionsGridAdapter(this);
         gridview.setAdapter(followInstructionsGridAdapter);
