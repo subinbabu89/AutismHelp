@@ -71,21 +71,12 @@ public class BaseActivity extends AppCompatActivity implements
     protected void setUpNavView() {
         navigationView.setNavigationItemSelectedListener(this);
 
-        if (useDrawerToggle()) { // use the hamburger menu
-            ActionBarDrawerToggle drawerToggle = new ActionBarDrawerToggle(this, fullLayout, toolbar,
-                    R.string.drawer_open,
-                    R.string.drawer_close);
+        ActionBarDrawerToggle drawerToggle = new ActionBarDrawerToggle(this, fullLayout, toolbar,
+                R.string.drawer_open,
+                R.string.drawer_close);
 
-            fullLayout.setDrawerListener(drawerToggle);
-            drawerToggle.syncState();
-        } else {
-            if (useToolbar() && getSupportActionBar() != null) {
-                // Use home/back button instead
-                getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-                getSupportActionBar().setHomeAsUpIndicator(getResources()
-                        .getDrawable(R.drawable.abc_ic_ab_back_mtrl_am_alpha));
-            }
-        }
+        fullLayout.setDrawerListener(drawerToggle);
+        drawerToggle.syncState();
     }
 
     /**

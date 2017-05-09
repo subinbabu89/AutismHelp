@@ -28,8 +28,8 @@
     <string-array name="visual_contact_grid">
         <item>Toy</item>
         <item>Cookie</item>
-        <item>Ball</item>
         <item>Juice</item>
+        <item>Ball</item>
     </string-array>
     <string-array name="stay_in_place_grid">
         <item>Puzzle</item>

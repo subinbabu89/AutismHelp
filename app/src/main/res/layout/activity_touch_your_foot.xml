@@ -5,10 +5,10 @@
     android:layout_height="match_parent"
     tools:context="org.cse5324.team.autismhelp.imitation.TouchYourFoot">
 
-    <pl.droidsonroids.gif.GifTextView
+    <ImageView
+        android:id="@+id/imgv_touch_toe_gif"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/touchyourfoot_in" />
+        android:layout_height="match_parent" />
 
     <Button
         android:id="@+id/button1"

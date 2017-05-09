@@ -10,7 +10,7 @@
         android:layout_height="200dp"
         android:src="@drawable/sparty_done" />
 
-    <org.cse5324.team.autismhelp.ui.stayinplace.puzzle.PuzzleView
+    <org.cse5324.team.autismhelp.stayinplace.puzzle.PuzzleView
         android:id="@+id/puzzleView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

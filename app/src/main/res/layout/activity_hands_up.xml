@@ -5,10 +5,10 @@
     android:layout_height="match_parent"
     tools:context="org.cse5324.team.autismhelp.imitation.HandsUp">
 
-    <pl.droidsonroids.gif.GifTextView
+    <ImageView
+        android:id="@+id/imgv_hands_up_gif"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/handsup_in" />
+        android:layout_height="match_parent"/>
 
     <Button
         android:id="@+id/button1"
