@@ -54,11 +54,11 @@ public class FollowInstructionsGridAdapter extends BaseAdapter {
 
         view.label.setText(gridItems[position]);
         if(position==0){
-            view.icon.setImageResource(R.drawable.brush);
+            view.icon.setImageResource(R.drawable.ic_brush);
         }else if(position==1){
-            view.icon.setImageResource(R.drawable.shower);
+            view.icon.setImageResource(R.drawable.ic_shower);
         }else if(position==2){
-            view.icon.setImageResource(R.drawable.eating);
+            view.icon.setImageResource(R.drawable.ic_eating);
         }
 
         return inflate;

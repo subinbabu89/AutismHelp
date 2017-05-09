@@ -32,9 +32,9 @@ public class TowerPagerAdapter extends PagerAdapter {
         ImageView imageView = new ImageView(mContext);
 
         if(position==0) {
-            imageView.setImageResource(R.drawable.starting_blocks);
+            imageView.setImageResource(R.drawable.ic_block_starting);
         }else{
-            imageView.setImageResource(R.drawable.finished_blocks);
+            imageView.setImageResource(R.drawable.ic_block_end);
         }
         imageView.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT));

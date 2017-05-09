@@ -52,15 +52,15 @@ public class ImitationGridAdapter extends BaseAdapter {
 
         view.label.setText(gridItems[position]);
         if(position==0){
-            view.icon.setImageResource(R.drawable.hands_up);
+            view.icon.setImageResource(R.drawable.ic_hands_up);
         }else if(position==1){
-            view.icon.setImageResource(R.drawable.clap);
+            view.icon.setImageResource(R.drawable.ic_clap);
         }else if(position==2){
-            view.icon.setImageResource(R.drawable.touchyourfoot);
+            view.icon.setImageResource(R.drawable.ic_touch_toe);
         }else if(position==3){
-            view.icon.setImageResource(R.drawable.dance);
+            view.icon.setImageResource(R.drawable.ic_dance);
         }else if(position==4){
-            view.icon.setImageResource(R.drawable.handtohead);
+            view.icon.setImageResource(R.drawable.ic_hands_head);
         }
         return inflate;
     }

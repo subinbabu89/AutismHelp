@@ -26,13 +26,13 @@ public class MatchPagerAdapter extends PagerAdapter{
         ImageView imageView = new ImageView(mContext);
 
         if(position==0) {
-            imageView.setImageResource(R.drawable.img_bicycle);
+            imageView.setImageResource(R.drawable.ic_bicycle);
         }else if(position==1) {
-            imageView.setImageResource(R.drawable.xylophone);
+            imageView.setImageResource(R.drawable.ic_xylophone);
         }else if(position==2) {
-            imageView.setImageResource(R.drawable.wooden_horse);
+            imageView.setImageResource(R.drawable.ic_wooden_horse);
         }else{
-            imageView.setImageResource(R.drawable.tower);
+            imageView.setImageResource(R.drawable.ic_tower);
         }
         imageView.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT));

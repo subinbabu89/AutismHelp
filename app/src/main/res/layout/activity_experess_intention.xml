@@ -10,18 +10,16 @@
     tools:layout_editor_absoluteY="25dp"
     tools:layout_editor_absoluteX="0dp">
 
-    <LinearLayout
+    <RelativeLayout
         android:id="@+id/ll_header_layout"
         android:layout_alignParentTop="true"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:layout_height="wrap_content">
 
         <TextView
             android:id="@+id/disp"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:ellipsize="end"
             android:scrollHorizontally="true"
             android:textAppearance="@style/TextAppearance.AppCompat.Caption"
@@ -29,18 +27,19 @@
 
         <ImageButton
             android:id="@+id/aac_clear"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@mipmap/aac_back" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/aac_back"
+            android:layout_marginTop="25dp"
+            android:layout_toLeftOf="@+id/aac_speak"/>
 
         <ImageButton
             android:id="@+id/aac_speak"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@mipmap/aac_speak" />
-    </LinearLayout>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/aac_speak" />
+    </RelativeLayout>
 
     <GridView
         android:layout_below="@+id/ll_header_layout"
@@ -53,6 +52,5 @@
         android:verticalSpacing="10dp"
         android:gravity="center"
         android:id="@+id/express_grid">
-
     </GridView>
 </RelativeLayout>
