@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -10,7 +9,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".ui.main.MainActivity"
+    tools:context=".main.MainActivity"
     tools:showIn="@layout/activity_main">
 
     <GridView
@@ -18,10 +17,10 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:columnWidth="90dp"
-        android:numColumns="2"
-        android:verticalSpacing="10dp"
+        android:gravity="center"
         android:horizontalSpacing="10dp"
-        android:stretchMode="columnWidth"
+        android:numColumns="2"
         android:padding="@dimen/activity_horizontal_margin"
-        android:gravity="center"></GridView>
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp"/>
 </RelativeLayout>

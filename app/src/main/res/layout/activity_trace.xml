@@ -2,22 +2,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.stayinplace.trace.TraceActivity" >
+    tools:context=".stayinplace.trace.TraceActivity">
 
     <ImageView
         android:id="@+id/imgv_trace_actual"
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/ic_trace_actual"/>
+        android:src="@drawable/ic_trace_actual" />
+
     <ImageView
         android:layout_width="400dp"
         android:layout_height="400dp"
-        android:src="@drawable/ic_trace_dotted"
+        android:layout_below="@+id/imgv_trace_actual"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/imgv_trace_actual"/>
+        android:src="@drawable/ic_trace_dotted" />
 
-    <org.cse5324.team.autismhelp.ui.stayinplace.trace.SimpleDrawingView
+    <org.cse5324.team.autismhelp.stayinplace.trace.SimpleDrawingView
         android:id="@+id/simpleDrawingView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

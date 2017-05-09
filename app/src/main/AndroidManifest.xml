@@ -9,35 +9,35 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.main.MainActivity">
+        <activity android:name=".main.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.visualcontact.VisualContactActivity" />
-        <activity android:name=".ui.stayinplace.StayinPlaceActivty" />
-        <activity android:name=".ui.imitation.ImitationActivity" />
-        <activity android:name=".ui.followinstructions.FollowInstructionsActivity" />
-        <activity android:name=".ui.expressintentions.ExpressIntentionsActivity" />
-        <activity android:name=".ui.help.HelpActivity" />
-        <activity android:name=".ui.stayinplace.puzzle.PuzzleActivity" />
-        <activity android:name=".ui.stayinplace.trace.TraceActivity" />
-        <activity android:name=".ui.stayinplace.match.MatchActivity" />
-        <activity android:name=".ui.stayinplace.buildtower.BuildTowerActivity" />
-        <activity android:name=".ui.followinstructions.Brush" />
-        <activity android:name=".ui.followinstructions.Shower" />
-        <activity android:name=".ui.followinstructions.Eat" />
-        <activity android:name=".ui.imitation.HandsUp" />
-        <activity android:name=".ui.imitation.Clap" />
-        <activity android:name=".ui.imitation.TouchYourFoot" />
-        <activity android:name=".ui.imitation.Dance" />
-        <activity android:name=".ui.imitation.HandsToHead" />
-        <activity android:name=".ui.visualcontact.Toy"/>
-        <activity android:name=".ui.visualcontact.Ball" />
-        <activity android:name=".ui.visualcontact.Juice" />
-        <activity android:name=".ui.visualcontact.Cookie"></activity>
+        <activity android:name=".visualcontact.VisualContactActivity" />
+        <activity android:name=".stayinplace.StayinPlaceActivty" />
+        <activity android:name=".imitation.ImitationActivity" />
+        <activity android:name=".followinstructions.FollowInstructionsActivity" />
+        <activity android:name=".expressintentions.ExpressIntentionsActivity" />
+        <activity android:name=".help.HelpActivity" />
+        <activity android:name=".stayinplace.puzzle.PuzzleActivity" />
+        <activity android:name=".stayinplace.trace.TraceActivity" />
+        <activity android:name=".stayinplace.match.MatchActivity" />
+        <activity android:name=".stayinplace.buildtower.BuildTowerActivity" />
+        <activity android:name=".followinstructions.Brush" />
+        <activity android:name=".followinstructions.Shower" />
+        <activity android:name=".followinstructions.Eat" />
+        <activity android:name=".imitation.HandsUp" />
+        <activity android:name=".imitation.Clap" />
+        <activity android:name=".imitation.TouchYourFoot" />
+        <activity android:name=".imitation.Dance" />
+        <activity android:name=".imitation.HandsToHead" />
+        <activity android:name=".visualcontact.Toy"/>
+        <activity android:name=".visualcontact.Ball" />
+        <activity android:name=".visualcontact.Juice" />
+        <activity android:name=".visualcontact.Cookie"></activity>
     </application>
 
 </manifest>

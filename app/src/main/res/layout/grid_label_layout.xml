@@ -8,7 +8,7 @@
     <ImageView
         android:id="@+id/imgv_grid_item_icon"
         android:layout_width="175dp"
-        android:layout_height="175dp"/>
+        android:layout_height="175dp" />
 
     <TextView
         android:id="@+id/txtv_grid_item_label"

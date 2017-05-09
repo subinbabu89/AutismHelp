@@ -25,12 +25,12 @@
         <item>Express intentions</item>
         <item>Help</item>
     </string-array>
-<string-array name="visual_contact_grid">
-    <item>Toy</item>
-    <item>Cookie</item>
-    <item>Ball</item>
-    <item>Juice</item>
-</string-array>
+    <string-array name="visual_contact_grid">
+        <item>Toy</item>
+        <item>Cookie</item>
+        <item>Ball</item>
+        <item>Juice</item>
+    </string-array>
     <string-array name="stay_in_place_grid">
         <item>Puzzle</item>
         <item>Trace</item>
@@ -93,9 +93,7 @@
         <item>Surprised </item>
         <item>Sick </item>
         <item>Sleepy </item>
-
     </string-array>
-
 
     <string name="hurrah">Hurrah!!!</string>
     <string name="completed_puzzle">You have completed the puzzle!</string>

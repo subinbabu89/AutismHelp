@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/express_intentions"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/express_intentions"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:layout_editor_absoluteY="25dp"
-    tools:layout_editor_absoluteX="0dp">
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="25dp">
 
     <RelativeLayout
         android:id="@+id/ll_header_layout"
-        android:layout_alignParentTop="true"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
 
         <TextView
             android:id="@+id/disp"
@@ -29,9 +28,9 @@
             android:id="@+id/aac_clear"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/aac_back"
             android:layout_marginTop="25dp"
-            android:layout_toLeftOf="@+id/aac_speak"/>
+            android:layout_toLeftOf="@+id/aac_speak"
+            android:background="@drawable/aac_back" />
 
         <ImageButton
             android:id="@+id/aac_speak"
@@ -42,15 +41,14 @@
     </RelativeLayout>
 
     <GridView
-        android:layout_below="@+id/ll_header_layout"
+        android:id="@+id/express_grid"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp"
+        android:layout_below="@+id/ll_header_layout"
         android:columnWidth="90dp"
+        android:gravity="center"
         android:numColumns="auto_fit"
         android:verticalSpacing="10dp"
-        android:gravity="center"
-        android:id="@+id/express_grid">
-    </GridView>
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp" />
 </RelativeLayout>

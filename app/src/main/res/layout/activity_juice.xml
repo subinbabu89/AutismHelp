@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="org.cse5324.team.autismhelp.ui.visualcontact.Juice">
+    tools:context="org.cse5324.team.autismhelp.visualcontact.Juice">
+
     <ImageView
         android:id="@+id/imageView1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:src="@drawable/ic_juice" />
+
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/play_audio"
         android:layout_gravity="center"
-        tools:layout_editor_absoluteY="511dp"
-        tools:layout_editor_absoluteX="159dp" />
+        android:text="@string/play_audio"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="511dp" />
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>
